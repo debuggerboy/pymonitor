@@ -1,0 +1,26 @@
+; mon config file mon.ini
+[system]
+name = "pymonitor"
+client_count = 3
+
+# Debug
+[debug]
+pid-file = /tmp/mon.pid
+show_warnings = False
+log_errors = True
+
+# Setting Server Credentials
+[server1]
+cfg_host = 127.0.0.1
+cfg_user = user1
+cfg_pass = pass123
+
+[server2]
+cfg_host = 127.0.0.2
+cfg_user = user2
+cfg_pass = pass234
+
+[server3]
+cfg_host = 127.0.0.3
+cfg_user = user3
+cfg_pass = pass345
